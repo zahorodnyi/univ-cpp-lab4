@@ -7,7 +7,7 @@
 #ifdef __APPLE__
     constexpr size_t CACHE_LINE = 128;
 #else
-constexpr size_t CACHE_LINE = 64;
+    constexpr size_t CACHE_LINE = 64;
 #endif
 
 struct alignas(CACHE_LINE) Field {
