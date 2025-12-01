@@ -1,6 +1,7 @@
 .idea/
 .vscode/
 
+prog
 
 cmake-build-*/
 CMakeFiles/
